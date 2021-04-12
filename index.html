@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="./animate.css-main/animate.css-main/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+</div>
     <div class="telegram-wrapper">
-        <div class="telegram-contact">
-            <div class="contact-header">
+            <div class="telegram-contact">
+                <div class="contact-header">
                   <form class="header-form">
-                    <i class="fas fa-bars"></i>
+                     <i  id="myBtn" class="fas fa-bars burger"></i>
+                     <div id="myModal" class="modal animate__animated animate__fadeIn ">
+                       <!-- Modal content -->
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <img src="./img/Colin-Morgan-300x400.jpg" alt="" class="profile-photo">
+                        </div>
+                      </div>
                     <input type="text" class="search-input" placeholder="Search..."> 
                   </form>            
             </div>
